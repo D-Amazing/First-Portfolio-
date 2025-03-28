@@ -1,2 +1,2 @@
 # First-Portfolio-
-I used HTML &amp; CSS plus Java to create my first portfolio project, i added an about page that goes over my beginning, with a sneak peek of were I want to end up. 
+My first portfolio project was created using HTML, CSS, and Java. The use of Bootstrap components to structure the webpage was a fascinating process. CSS was then incorporated into the HTML to add style to specific text. However, it was JavaScript that truly brought the pages to life, adding animation and smoothness to enhance the user experience. 
