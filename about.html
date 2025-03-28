@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",  inital-scale=1.0> 
+        <title>My Portfolio</title>
+        <!-- Bootstrap Css-->
+         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+         <link href="portfolio.css" rel="stylesheet"> 
+         <script src="script.js" ></script>
+    </head>
+    <body>
+        <!-- Header with Image and Quote -->
+        <header class="text-center mt-4">
+            <div class="container mt-5">
+                <div id="profile" class="text-center">
+                    <img src="selfie2.jpeg" alt="profile photo." class="img-fluid  rounded-circle mb-4" style="width: 200px;"> 
+                <h2 class="fade-in">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Your Future is Created by what you do Today not tomorrow! 
+                            -Mr.Amazing
+                        </p>
+                    </blockquote> 
+                </h2>
+                </div>
+            </div>
+        </header>
+ <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Home</a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link" href="contact.html">Booking</a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+        </li>
+    </ul>
+</div>
+ </nav>  
+
+<!-- Swipe Card Structure -->
+<div id="cardCarousel" class="carousel slide" data-bs-ride="false"> 
+    <div class="carousel-inner">
+
+        <!-- Card 1: Future Path with Robotics  -->
+         <div class="carousel-item active">
+            <div class="d-flex justify-content-center"> 
+                <div class="card">
+                    <img src="robot car.jpg" class="card-img-top" alt="Robotics"> 
+                    <div class="card-body">
+                        <h5 class="card-title">My Future in Robotics</h5>
+                        <p class="card-text">I've always been passionate about Robotics and how they can accomplish things humans cannot. My goal is to create innovative technology available to everyone. Not just the 
+                            ones who can afford it. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+<!-- Card 2: Hobbies Overview & Personal -->
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <div class="card">
+                    <img src="babyme.jpeg" class="card-img-top" alt="babyme"> 
+                    <div class="card-body">
+                    <h5 class="card-title">Where it all Started</h5>
+                    <p class="card-text">I was born three months early, weighing only 1 pound and 3 ounces. 
+                        My start in life was very dangerous; doctors said I might not survive. 
+                        Each day was a struggle as I fought for my life in the hospital. 
+                        Now, at 24 years old, I look back on my journey. I live with diabetes, 
+                        which brings challenges, but I appreciate every day of life. 
+                        My early struggles helped me grow stronger and taught me to value every moment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Card 3: Hobbies -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card">
+                        <img src="nixon camera.jpg" class="card-img-top" alt="more hobbies"> 
+                        <div class="card-body">
+                            <h5 class="card-title">Photography</h5>
+                            <p class="card-text">Aside from Tech, I'm into Nature & Photographer I've always had a ken eye on the magnificent!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Left & Right Navigation Arrows -->
+     <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     </button>
+</div>
+
+<!-- BootStrap & JS-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="script.js"></script> 
+
+</body>
+</html> 
